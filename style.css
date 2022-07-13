@@ -1,0 +1,45 @@
+
+body {margin: 0; padding: 0;}
+h1 {font-family: 'Lato', sans-serif; font-weight: 800; font-size: 30px;}
+h3 {font-family: 'Lato', sans-serif; font-size: 20px;}
+
+#mint-color { color: #bfcfc6;}
+#gray-color { color: #aca49b;}
+#blue-color { color: #192a53;}
+
+button { 
+    padding: 10px 20px;
+    margin: 20px 0 0 0; /*just showing off wouldnt normally do that*/
+    background: #192a53;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.title-wrapper {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+}
+
+#game-board {
+    background: #fff;
+    border-radius: 3px;
+    margin: 20px;
+}
